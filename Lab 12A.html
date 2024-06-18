@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class and pseudo elements</title>
+    <style>
+          a:link{
+           color:yellow;
+          }
+          a:visited{
+            color: red;
+          }
+          p::first-line{
+            font-size: larger;
+            font-family: cursive;
+            color: cadetblue;
+            padding-left: 500px;        
+          }
+          p::first-letter{
+            margin-left: 50px;
+            font-size: 100px;
+          }
+          *::selection{
+            background-color: darksalmon;
+            color: green;
+          }
+          a:hover{
+            font-size: 50px;
+            background-color: powderblue;
+            color: purple;
+            cursor:unset;
+            
+          }
+          p:hover{
+           text-shadow:5px 5px 5px coral;
+           color: blue;
+          }
+          button:hover{
+            box-shadow: 7px 7px 7px cornflowerblue
+          }
+
+    </style>
+
+</head>
+<body>
+    <a href="https://chat.openai.com/">chat gpt</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore co
+       nsectetur, nisi nostrum et quaerat corrupti aliquid eius quia optio 
+       quod sed minima blanditiis sunt ab architecto quae dicta repellat.</p>
+       
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore co
+    nsectetur, nisi nostrum et quaerat corrupti aliquid eius quia optio 
+    quod sed minima blanditiis sunt ab architecto quae dicta repellat.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore co
+    nsectetur, nisi nostrum et quaerat corrupti aliquid eius quia optio 
+    quod sed minima blanditiis sunt ab architecto quae dicta repellat.</p>
+
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore co
+      nsectetur, nisi nostrum et quaerat corrupti aliquid eius quia optio 
+      quod sed minima blanditiis sunt ab architecto quae dicta repellat.</span>
+        
+      <button>Submit</button>
+</body>
+</html>

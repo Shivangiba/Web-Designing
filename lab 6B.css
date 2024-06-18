@@ -1,0 +1,80 @@
+main{
+    background-color: aqua;
+    height: 100vh;
+}
+.header{
+   background-color: bisque;
+   width: 100%;
+   height: 20%;
+   float: left;
+}
+.logo3{
+    width: 30%;
+    float: left;
+}
+.logo3 img
+{
+    height: 100px;
+}
+.icons{
+    width: 60%;
+    float:right;
+    margin: 30px;
+}
+.hlo{
+    float: right;
+    margin: 20px;
+}
+.hlo a
+{
+    text-decoration: none;
+}
+.content
+{
+    height: 70%;
+    float: left;
+    width: 100%;
+}
+.icons2{
+    width: 30%;
+    background-color: red;
+    float: left;
+}
+.i2
+{
+    height: 75px;
+    width: 100%;
+    margin:2px 0px;
+    border: 1px solid yellow;
+}
+.blacky{
+    width: 69%;
+    float: left;
+    border: 2px dotted black;
+}
+.hmm{
+    height: 100px;
+    float: left;
+}
+img{
+    height: 50px;;
+}
+.image2{
+    background-color: cornflowerblue;
+}
+.hlo2{
+    float: left;
+}
+.image1{
+
+}
+.hlo2{
+
+}
+.footer{
+    float: left;
+    width: 100%;
+    height: 10%;
+    color: white;
+background-color: blue;
+}

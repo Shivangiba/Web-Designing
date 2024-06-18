@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .lorem{
+            height: 200px;
+            width: 50%;
+            animation-name:on-the-way;
+            animation-duration: 5s;
+            animation-delay: 1s;
+            position: relative;
+            animation-iteration-count: 1;
+            animation-direction: alternate-reverse;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes on-the-way {
+            
+            0%{
+                top: 0px;
+                left: 0px;
+                background-color: cadetblue;
+            }
+            25%{
+                top: 0px;
+                left: 500px;
+                background-color: lightseagreen;
+            }
+            50%{
+                top: 400px;
+                left: 500px;
+                background-color: rgb(142, 26, 90);
+            }
+            75%{
+                top: 400px;
+                left: 0px;
+                background-color: burlywood;
+            }
+            100%{
+                top:0px ;
+                left:0px;
+                background-color: crimson;
+            }
+        }
+        .lorem2{
+            height: 200px;
+            width: 40%;
+            animation-name:ultan-paltan;
+            animation-duration: 10s;
+        }
+        @keyframes ultan-paltan{
+            form{
+               transform: rotate(45deg);
+            }
+            to{
+                transform: rotate(180deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="lorem">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio voluptates perferendis, architecto suscipit alias veniam incidunt accusamus labore neque at repudiandae earum voluptate tempora excepturi illum provident officia asperiores tempore aliquid sint, tenetur, pariatur quis facere? Iste perspiciatis dicta hic, beatae deleniti magni quis ipsam, libero sapiente nesciunt nisi dolorum quidem tempora iure sunt explicabo ipsum pariatur saepe laudantium repellendus aliquid itaque. Vitae, non aliquid.
+    </div>
+    <div class="lorem2">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio voluptates perferendis, architecto suscipit alias veniam incidunt accusamus labore neque at repudiandae earum voluptate tempora excepturi illum provident officia asperiores tempore aliquid sint, tenetur, pariatur quis facere? Iste perspiciatis dicta hic, beatae deleniti magni quis ipsam, libero sapiente nesciunt nisi dolorum quidem tempora iure sunt explicabo ipsum pariatur saepe laudantium repellendus aliquid itaque. Vitae, non aliquid.
+    </div>
+        
+</body>
+</html>

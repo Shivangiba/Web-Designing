@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 14A</title>
+    <style>
+        .main{
+            height: 100vh;
+            width: 100%;
+            /* display: flex; */
+            /* justify-content: space-around; */
+        }
+        .Header{
+            height: 10%;
+            width: 100%;
+            background-color:black;
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            align-items: center;
+        }
+        .body{
+            height: 90%;
+            width: 100%;
+            display: flex;
+            justify-content:space-evenly;
+        
+        }
+        .top{
+            height: 5%;
+            font-size: larger;
+        }
+        .bodycon{
+            background-color:lightslategray;
+            text-align: center;
+            height:60%;
+            
+           
+        }
+        .right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+        img{
+            height: 100%;
+            justify-items: center;
+            align-items: center;
+        }
+        button{
+            background-color:darkorange;
+            border-radius: 5px;
+            height: 40px;
+        }
+        .footer{
+            height: 20%;
+            width: 100%;
+            background-color:black;
+            color: aliceblue;
+            display: flex;
+            align-items: center;
+            padding: 90px;
+            flex-direction: column;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="Header">
+            <div class="options">The book series</div>
+            <div class="options">Testmonials</div>
+            <div class="options">the author</div>
+            <div class="options">free resources</div>
+        </div>
+        <div class="bodycon">
+            <div class="top"><strong>You dont know javascript</strong></div>
+           <div class="body"><div class="left"><img src="./20+ Free Cute iPhone Wallpapers With HD Quality.jpg" alt=""></div>
+            <div class="right">
+                <div>Dont just Drift Through javascript</div>
+                <!-- <br> -->
+                <div>understand how javascript works</div>
+                <!-- <br> -->
+                <div>start your journey through the bumpy side of javascript</div>
+                <div><button>Order your Copy Now</button></div>
+            </div>
+        </div>
+        </div>
+        <div class="footer">
+             <div>the first book in the book series is absolutely free</div>
+             <div><button>Find out more about this offer</button></div>
+        </div>
+    </div>
+</body>
+</html>
